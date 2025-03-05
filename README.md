@@ -52,6 +52,3 @@ Here’s a closer look at what each method does:
 ### `dealCard()`
 - Selects and prints 5 random cards from the deck, simulating a real card deal.
 
-## Try It Out!
-This interactive program is perfect for card game enthusiasts or anyone interested in working with Java collections. Have fun exploring your deck and experimenting with different options!
-

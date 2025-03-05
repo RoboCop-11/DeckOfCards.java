@@ -59,5 +59,18 @@ public class Deck {
         System.out.println("Card not found.");
     }
 
+   // Method to deal 5 random cards
+    public void dealCard() {
+        Collections.shuffle(deck);
+        System.out.println("Dealt 5 random cards:");
+        for (int i = 0; i < 5; i++) {
+            System.out.println(deck.get(i));
+        }
+    }
 
+    // Method to shuffle the deck
+    public void shuffleDeck() {
+        Collections.shuffle(deck);
+        System.out.println("Deck shuffled.");
+    }
 }
